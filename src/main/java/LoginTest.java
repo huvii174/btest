@@ -18,7 +18,7 @@ public class LoginTest {
     // Initialize
     @BeforeMethod
     public  void SetUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Dell\\Downloads\\chromedriver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "E:\\chromedriver_win32\\chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://shop.gboss.io/login");
